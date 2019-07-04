@@ -1,0 +1,119 @@
+body{
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  text-align: center;
+  opacity: .9;
+}
+/* Header */
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+a{
+  color: seashell;
+  text-decoration: none;
+}
+header{
+  padding-top: 0px;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  align-items: center;
+}
+header img{
+  position: relative;
+  height: 50px;
+  padding-left: 10px;
+}
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+nav span{
+  display: inline-block;
+  text-decoration: underline;
+  padding: 0px 10px;
+}
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+/* Mission */
+h2, h4{
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+}
+#mission{
+  background-image: url("/Users/haeju/Desktop/Codecademy/Tea Cozy/images/img-mission-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  *background-size: cover;
+  padding-top: 70px;
+  height: auto;
+  align-items: center;
+  height:700px;
+  width: auto;
+}
+#mission .content{
+  padding-top: 0px;
+  background-color: black;
+  margin: auto;
+  width: 100%;
+}
+/* Store */
+#store{
+  display: inline-flex;
+  justify-content: center;
+  width: 1000px;
+  margin: 0px auto;
+}
+#store h2{
+  padding-top: 70px;
+}
+#store h4{
+  padding-top: 20px;
+}
+.item{
+  padding: 5px;
+}
+.item img{
+  max-width: 300px;
+  max-height: 200px;
+  display: block;
+}
+/* Locations */
+#locations{
+  background-image: url("/Users/haeju/Desktop/Codecademy/Tea Cozy/images/img-locations-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  padding-top: 60px;
+  opacity: 1.0;
+}
+.locations{
+  padding-top: 15px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.location{
+  display: flex;
+  background-color: black;
+  width: 300px;
+  flex-direction: column;
+}
+/* Footer */
+footer{
+  height: 200px;
+}
